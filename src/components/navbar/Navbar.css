@@ -1,0 +1,51 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 34px;
+  }
+
+  .nome-logo {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+    color: #fff;
+  }
+
+
+  .container-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  .link-home {
+    color: #fff;
+    text-decoration: none;
+    padding: 32px;
+    font-weight: 500;
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+  }
+
+  .links {
+    padding: 32px;
+    font-weight: 500;
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+
+  code {
+    color: var(--color-text-secundary);
+  }
