@@ -2,11 +2,12 @@
 
 .inicio {
     margin-top: 136px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .inicio-container {
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex; */
 }
 
 .logo {
@@ -19,9 +20,40 @@
     font-weight: 600;
     font-family: 'Fira Code', monospace;
     color: #fff;
-    text-align: center;
+}
+
+.texto-inicio {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Fira Code', monospace;
+    color: var(--color-text-primary);
+    margin-top: 32px;
 }
 
 span {
     color: var(--color-text-secundary);
+}
+
+.foto-perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.botao-container {
+    margin-top: 24px;
+}
+
+.btn-contato {
+    width: 146px;
+    height: 37;
+    border: 1px solid var(--color-text-secundary);
+    background-color: var(--background-color);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Fira Code', monospace;
+
 }
