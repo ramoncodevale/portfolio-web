@@ -9,7 +9,7 @@
 
   .nome-logo {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Fira Code', monospace;
     color: #fff;
   }
@@ -29,7 +29,7 @@
   }
 
   .link-home {
-    color: #fff;
+    color: var(--color-text-secundary);
     text-decoration: none;
     padding: 32px;
     font-weight: 500;
@@ -44,6 +44,10 @@
     font-size: 16px;
     color: var(--color-text-primary);
     text-decoration: none;
+  }
+
+  .links:hover {
+    color: #fff;
   }
 
   code {

@@ -44,13 +44,15 @@ span {
     margin-top: 24px;
 }
 
-.btn-contato {
+.botao-container button {
     width: 146px;
     height: 37;
     border: 1px solid var(--color-text-secundary);
     background-color: var(--background-color);
     color: #fff;
     cursor: pointer;
+    align-items: center;
+    margin:  0 5px;
     padding: 10px;
     font-size: 16px;
     font-weight: 600;

@@ -1,6 +1,9 @@
 import './Inicio.css'
 
 import Foto from '../../assets/minha-foto.jpg'
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 const Inicio = () => {
   return (
@@ -11,7 +14,8 @@ const Inicio = () => {
         </h1>
           <p className='texto-inicio'>Eu crio sites responsivos onde a tecnologia encontra <br></br> a criatividade</p>
       <div className="botao-container">
-        <button className='btn-contato'>Contato</button>
+        <button>Linkedin <FaLinkedin  fontSize={16}/></button>
+        <button>Github <FaGithub fontSize={16} /></button>
       </div>
         </div>
        <div className='img-perfil'>
