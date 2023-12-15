@@ -53,3 +53,31 @@
   code {
     color: var(--color-text-secundary);
   }
+
+  .hamburguer-container {
+    display: none;
+  }
+  
+  @media screen and (max-width: 767px){
+
+    nav {
+      display: none;
+    }
+
+    .hamburguer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      width: 100%;
+    }
+
+    .nav-mobile {
+      background-color: #18181b;
+    }
+
+    .list {
+      flex-direction: column;
+    }
+
+  }
