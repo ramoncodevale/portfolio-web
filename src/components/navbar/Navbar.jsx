@@ -1,6 +1,8 @@
 import './Navbar.css'
 import { FaHashtag } from "react-icons/fa";
 
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <nav>
@@ -10,10 +12,10 @@ const Navbar = () => {
       </div>
         <div className="container-ul">
             <ul className="list">
-            <li><a className='link-home' href="#"><code>#</code>Início</a></li>
-            <li><a className='links' href="#"><code>#</code>Projetos</a></li>
-            <li><a className='links' href="#"><code>#</code>Sobre Mim</a></li>
-            <li><a className='links'  href="#"><code>#</code>Contatos </a></li>
+            <Link to="/" className='link-home'><code>#</code>Início</Link>
+            <Link to="/projetos" className='links'><code>#</code>Projetos</Link>
+            <Link to="/sobre mim" className='links'><code>#</code>Sobre Mim</Link>
+            <Link to="/contatos" className='links'><code>#</code>Contatos</Link>
             </ul>
         </div>
     </nav>
